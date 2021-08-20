@@ -296,7 +296,7 @@ if __name__ == '__main__':
                         help = "path to raw images (useful for visualization even if no segmentation is desired)")
     parser.add_argument("-segmented_image_path", type=str,
                         help="specifying an image path for -segmentated_images_path will bypass segmentation. Only tracking and lineage tracking will be performed")
-    parser.add_argument("-output_dir", type=str, required=True,
+    parser.add_argument("-output_dir", type=str,
                         help="directory where you want output to be located. Will be created if inputted path does not exist")
     parser.add_argument("-output_filename", type=str, default="output",
                         help="name prefix given to all files created. Default is 'output'")
@@ -311,8 +311,8 @@ if __name__ == '__main__':
     # cost function parameters
     parser.add_argument("-weight_overlap", type=int, default=95, help="Cost function weight for cell area overlap")
     parser.add_argument("-weight_centroids", type=int, default=50, help="Cost function weight for cell-to-cell centroid distance")
-    parser.add_argument("-weight_size", type=int, default=10, "Cost function weight for cell size similarity from frame to frame")
-    parser.add_argument("-max_centroids_distance", type=float, default=75.0, "Max distance between centroids of identical cells")
+    parser.add_argument("-weight_size", type=int, default=10, help ="Cost function weight for cell size similarity from frame to frame")
+    parser.add_argument("-max_centroids_distance", type=float, default=75.0, help="Max distance between centroids of identical cells")
 
     # mitosis parameters
     parser.add_argument("-division_overlap_threshold", type=int, default=100, help=argparse.SUPPRESS)
