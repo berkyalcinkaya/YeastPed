@@ -11,7 +11,7 @@ This pipeline incorporates both previously developed algorithms and a novel gene
 A convolutional neural network (CNN) trained on segmented images of budding yeast  (Dietler et al., 2020) performs the segmentation, 
 and our artefact removal method utilizes a minimum life span and minimum cell area criteria. Tracking is based upon Lineage Mapper – 
 a Hungarian algorithm-based tool optimized for cell tracking (Chalfoun et al., 2016). The final step, genealogy reconstruction, 
-is based upon assumptions of mother-daughter proximity and the observation that the major axis of elliptical yeast daughter cells aligns 
+is based upon assumptions of mother-daughter proximity and the observation that the major axis of elliptical yeast daughter cells align 
 with possible mother cells. The geneaology tracking does not require a flourescent budneck marker.
 
 Based on benchmark of the genealogy’ accuracy on three 200 image datasets, this novel algorithm correctly identified mother-daughter pairs 
