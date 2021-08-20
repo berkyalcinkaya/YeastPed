@@ -1,7 +1,7 @@
 # YeastPed: Automated Genealogy Tracking of Budding Yeast from Timelapse Microscopy Images - Without a Fluorescent Budneck Marker
 
 This program was designed to aid in cell image analysis of budding yeast. The program incorporates four important functionalities, 
-which have been optimized for budding yeast, into an automated workflow:
+which have been optimized for budding yeast, into an automated workflow that can be run via the command line interface:
 1)	Segmentation 
 2)	Artefact Removal
 3)	Frame-to-Frame Tracking
@@ -16,6 +16,8 @@ with possible mother cells. The geneaology tracking does not require a flouresce
 
 Based on benchmark of the genealogy’ accuracy on three 200 image datasets, this novel algorithm correctly identified mother-daughter pairs 
 88.3% of the time.
+
+Please refer to the Doc.pdf file in the /doc folder. There, you can find detailed usage instructions and more details about the functionalites provided by the program.
 
 Citations:
 
