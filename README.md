@@ -17,7 +17,7 @@ with possible mother cells. The geneaology tracking does not require a flouresce
 Based on benchmark of the genealogy’ accuracy on three 200 image datasets, this novel algorithm correctly identified mother-daughter pairs
 88.3% of the time.
 
-Please refer to the Doc.pdf file in the /doc folder. There, you can find detailed usage instructions and more details about the functionalites provided by the program.
+Please refer to the Doc.pdf file in the /doc folder. There, you can find detailed usage instructions and more details about the functionalites provided by YeastPed.
 
 Citations:
 
